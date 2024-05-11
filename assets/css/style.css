@@ -337,6 +337,9 @@ a {
   background-image: url("../img/Twiter.svg");
 }
 
+.slider-main {
+  --slider-height: 30dvh;
+}
 @media (min-width: 768px) {
   .slider-main {
     --slider-height: 80dvh;
@@ -361,17 +364,15 @@ a {
   padding: 3px 10px;
   color: #1c1c1c;
 }
-@media (min-width: 768px) {
-  .slider-main-content-title {
-    font-size: 3.5rem;
-    font-weight: 700;
-    color: #143450;
-    line-height: 120%;
-  }
-  .slider-main-content-dsc {
-    font-size: 1rem;
-    color: #1c1c1c;
-  }
+.slider-main-content-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #143450;
+  line-height: 120%;
+}
+.slider-main-content-dsc {
+  font-size: 1rem;
+  color: #1c1c1c;
 }
 .slider-main-img {
   width: 100%;
